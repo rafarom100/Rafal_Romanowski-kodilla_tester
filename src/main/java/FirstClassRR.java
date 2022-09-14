@@ -1,4 +1,4 @@
-public class FirstClass1 {
+public class FirstClassRR {
     public static void main(String[] args) {
         System.out.println("Hello from FirstClass!");
 
