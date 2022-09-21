@@ -20,7 +20,7 @@ public class User {
         User[] users = {piotr, pawel, marcin, anna, paulina, wiktor, donald, kunegunda};
 
         int sum = 0;
-        for (int i = 0)
+      //  for (int i = 0, i< users.length; i++)
 
 
 
