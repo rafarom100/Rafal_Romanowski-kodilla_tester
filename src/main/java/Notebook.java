@@ -11,7 +11,7 @@ public class Notebook {
     public void checkPrice() {
         if (this.price < 600) {
             System.out.println("This notebook is cheap.");
-        } else if (this.price >600 && this.price < 1000){
+        } else if (this.price >=600 && this.price < 1000){
             System.out.println("The price is very good.");
         } else {
             System.out.println("This notebook is expensive.");
@@ -20,7 +20,7 @@ public class Notebook {
     public void checkWeight() {
         if (this.weight <600) {
             System.out.println("This notebook is light.");
-        } else if (this.weight >600 && this.weight <900) {
+        } else if (this.weight >=600 && this.weight <900) {
             System.out.println("This notebook is not heavy.");
         }else {
             System.out.println("This notebook is very heavy.");
@@ -31,16 +31,16 @@ public class Notebook {
     public void checkYear() {
         if (this.year > 2020) {
             System.out.println("This notebook is young.");
-        } else if (this.year < 2020 && this.year > 2010) {
+        } else if (this.year <= 2020 && this.year > 2010) {
             System.out.println("This notebook is ok.");
         } else {
             System.out.println("This notebook is very old.");
         }
     }
     public void comparePriceAndYear() {
-        if (this.price <= 1400 && this.year >= 2015) {
+        if (this.price >= 1400 && this.year >= 2015) {
             System.out.println("This notebook is to expensive");
-        } else if (this.price < 1400 && this.year > 2015) {
+        } else if (this.price < 1400 && this.year < 2015) {
             System.out.println("This notebook is for me.");
         } else {
             System.out.println("This notebook is not for me.");
